@@ -1,11 +1,11 @@
 {
   "name": "@achrafbardan/model-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript NPM Module Boilerplate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && replace-tsconfig-paths",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --fix --ext .js,.ts",
@@ -51,6 +51,7 @@
   "dependencies": {
     "axios": "^0.25.0",
     "collect.js": "^4.31.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "replace-tsconfig-paths": "^1.2.6"
   }
 }
