@@ -1,4 +1,4 @@
-import Cast from '@/casts/Cast';
+import Cast from '../casts/Cast';
 
 export default class ConstructorCast implements Cast {
     /**

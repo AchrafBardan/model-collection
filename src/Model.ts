@@ -1,4 +1,4 @@
-import Base from '@/Base';
+import Base from './Base';
 import cloneDeep from 'lodash/cloneDeep';
 
 type Attributes = Record<string|number|symbol, any>;

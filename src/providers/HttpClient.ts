@@ -1,4 +1,4 @@
-import {RequestConfig} from '@/providers/HttpProvider';
+import {RequestConfig} from '../providers/HttpProvider';
 
 export type RequestMethod = 'delete' | 'get' | 'post' | 'put';
 

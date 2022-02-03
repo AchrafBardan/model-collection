@@ -1,7 +1,7 @@
-import HttpClient, {RequestMethod} from '@/providers/HttpClient';
+import HttpClient, {RequestMethod} from '../providers/HttpClient';
 import axios, {AxiosResponse, CancelToken} from 'axios';
-import HasHttpProvider from '@/providers/HasHttpProvider';
-import Provider from '@/providers/Provider';
+import HasHttpProvider from '../providers/HasHttpProvider';
+import Provider from '../providers/Provider';
 
 export interface RequestConfig {
     cancelToken?: CancelToken;

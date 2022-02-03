@@ -1,6 +1,6 @@
-import Base from '@/Base';
+import Base from './Base';
 import {Collection as BaseCollection} from 'collect.js';
-import CollectJs from '@/CollectJs';
+import CollectJs from './CollectJs';
 
 abstract class Collection<M, A> extends Base<A> {
     /**

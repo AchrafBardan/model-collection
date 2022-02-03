@@ -1,5 +1,5 @@
-import {Action} from '@/providers/Provider';
-import Errors from '@/Errors';
+import {Action} from '../providers/Provider';
+import Errors from '../Errors';
 
 interface HasHttpProvider {
     /**

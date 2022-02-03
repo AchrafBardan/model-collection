@@ -1,6 +1,6 @@
-import Provider, {Action, Options} from '@/providers/Provider';
-import Cast from '@/casts/Cast';
-import Errors from '@/Errors';
+import Provider, {Action, Options} from './providers/Provider';
+import Cast from './casts/Cast';
+import Errors from './Errors';
 import get from 'lodash/get';
 
 export default abstract class Base<A> {
