@@ -73,21 +73,6 @@ test('throws error when provider fails', async () => {
     expect(base.success).toBe(false);
 });
 
-test('does not call the provider when provider has not been assigned', async () => {
-    // Prepare
-    const base = new TestBase();
-
-    base.provider = undefined;
-
-    // Execute
-    const result = await base.callProvider('create');
-
-    // Assert
-    expect(MockedHttpProvider.prototype.create).toBeCalledTimes(0);
-
-    expect(result).toBeUndefined();
-});
-
 test('clears errors before calling provider', async () => {
     // Prepare
     const attributes = {id: 1};
