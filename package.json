@@ -1,6 +1,6 @@
 {
   "name": "@achrafbardan/model-collection",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "TypeScript NPM Module Boilerplate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
