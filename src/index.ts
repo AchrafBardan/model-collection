@@ -1,2 +1,3 @@
-import os from 'os';
-export default os;
+const test = 'test';
+
+export default test

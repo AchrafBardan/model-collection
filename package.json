@@ -1,5 +1,5 @@
 {
-  "name": "model-collection",
+  "name": "@achrafbardan/model-collection",
   "version": "0.1.2",
   "description": "TypeScript NPM Module Boilerplate",
   "main": "lib/index.js",
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/AchrafBardan/model-collection#readme",
   "devDependencies": {
     "@types/jest": "27.4.0",
+    "@types/lodash": "^4.14.178",
     "@typescript-eslint/eslint-plugin": "5.10.0",
     "@typescript-eslint/parser": "5.10.0",
     "eslint": "7.32.0",
@@ -43,5 +44,13 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "collect.js": "^4.31.3",
+    "lodash": "^4.17.21"
+  }
 }
